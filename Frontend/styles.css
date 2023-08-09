@@ -1,0 +1,251 @@
+/* styles.css */
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navigation styles */
+nav {
+    background-color: #f4f4f4;
+    padding: 10px;
+}
+
+/* nav {
+    background-color: #333;
+    height: 50px;
+    Add any additional styles
+} */
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+} */
+
+nav li {
+    margin-right: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav a:hover {
+    /* Add hover styles as desired */
+    cursor: pointer;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav li.active {
+    background-color: #fff;
+}
+
+nav li.active a {
+    color: #333;
+}
+
+nav ul li a {
+    color: #333;
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+/* styles.css */
+
+/* Main styles */
+main {
+    padding: 20px;
+}
+
+.projects,
+.tasks {
+    margin-bottom: 20px;
+}
+
+.projects h2,
+.tasks h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Responsive layout */
+@media (min-width: 768px) {
+
+    /* Adjust the layout for larger screens */
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 20px;
+    }
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    width: 400px;
+    margin: 0 auto;
+}
+
+form div {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+textarea,
+input[type="date"] {
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #0069d9;
+}
+
+h1,
+h2,
+h3 {
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+p {
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+.navbar {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.navbar li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar li a:hover {
+    background-color: #0056b3;
+}
+
+.form {
+    margin-bottom: 20px;
+}
+
+.form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form input[type="text"],
+.form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.form input[type="submit"] {
+    display: inline-block;
+    padding:
+
+        10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+
